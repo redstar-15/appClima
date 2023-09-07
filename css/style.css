@@ -1,0 +1,35 @@
+body {
+  /*width: 200px;
+  height: 200px;*/
+  background-image: url("imagen5.jpg");
+  background-size: cover;
+}
+
+.titulo {
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.seleccion {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+}
+
+#letraciud {
+  color: #ffffff;
+  /*font-size: 10px;*/
+}
+
+.respuesta {
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -6,14 +6,11 @@ let apikey = "8766f499d6c0a61ef121ad5c9c132660"
 let lati = ""
 let longi = ""
 
+
 botonSeleccion.addEventListener("click", seleccion)
 
 function seleccion() {
   ciudadElegida = ciudad.value
-  //respuesta.textContent = "seleccionaste: " + ciudadElegida;
-  /*fetch("https://restcountries.com/v3.1/all?fields=Colombia")
-    .then(response => response.json())
-    .then(data => console.log(data))*/
   cordenadas();
 }
 function cordenadas() {
